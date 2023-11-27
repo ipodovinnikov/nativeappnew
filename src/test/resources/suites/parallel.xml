@@ -1,0 +1,22 @@
+<suite name="Parallel dummy test Suite" parallel="tests" thread-count="4" >
+    <test name="Dummy test1" group-by-instances="true">
+        <classes>
+            <class name="com.aeo.nativeappnew.tests.Dummy1Test" />
+        </classes>
+    </test>
+    <test name="Dummy test2" group-by-instances="true">
+        <classes>
+            <class name="com.aeo.nativeappnew.tests.Dummy2Test" />
+        </classes>
+    </test>
+    <test name="Dummy test3" group-by-instances="true">
+        <classes>
+            <class name="com.aeo.nativeappnew.tests.Dummy3Test" />
+        </classes>
+    </test>
+    <test name="Onboarding dummy test" group-by-instances="true">
+        <classes>
+            <class name="com.aeo.nativeappnew.tests.OnboardingDummyTest" />
+        </classes>
+    </test>
+</suite>
